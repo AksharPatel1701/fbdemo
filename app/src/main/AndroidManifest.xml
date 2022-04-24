@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fb">
         <activity
+            android:name=".ViewAll"
+            android:exported="false" />
+        <activity
             android:name=".Singup"
             android:exported="false" />
         <activity

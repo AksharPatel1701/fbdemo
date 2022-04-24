@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                                 var editor = preference.edit()
                                 editor.putString("UserName", username)
                                 editor.commit()
-                                var intent = Intent(applicationContext, Singup::class.java)
+                                var intent = Intent(applicationContext, ViewAll::class.java)
                                 startActivity(intent)
                                 finish()
                                 flage=true
@@ -61,7 +61,10 @@ class MainActivity : AppCompatActivity() {
 
             })
         }
-
+        signup.setOnClickListener {
+            var intent = Intent(applicationContext,Singup::class.java)
+            startActivity(intent)
+        }
 
     }
 }
