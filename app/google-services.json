@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "813647027019",
+    "project_id": "fbakshar",
+    "storage_bucket": "fbakshar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813647027019:android:16c7ccffd10258e2fae6ce",
+        "android_client_info": {
+          "package_name": "com.example.fb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813647027019-gn8ekro79iouq95v59ues0thn9td0b4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByd63uUerTfb_dXuU6WElGDV-kp-1MZFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813647027019-gn8ekro79iouq95v59ues0thn9td0b4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
